@@ -1,0 +1,4 @@
+# Task files are copied into Linux images and applied with git: keep line endings as LF everywhere.
+* text=auto eol=lf
+# A fixture's history is applied byte for byte.
+*.patch -text
